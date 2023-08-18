@@ -1,0 +1,108 @@
+/*Paleta de Cores:
+https://colorhunt.co/palette/f6f4eb91c8e4749bc24682a9
+*/
+
+html, body {
+    font-family: 'Lato';
+    height: 100%;
+    margin: 0;
+}
+
+header {
+	background: #91C8E4;
+	
+}
+
+main {
+	text-align: center;
+    background-color: #F6F4EB;
+
+}
+
+footer {
+	text-align: center;
+    background-color: #749BC2;
+}
+
+#div-header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#div-main {
+    height: calc(100vh - 80px - 82px);
+    padding: 20px 0;
+}
+
+#div-footer{
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    padding: 20px;
+}
+
+.candidatos{
+	width:  940px;
+	margin:  0 auto;
+	padding: 50px 0;
+}
+
+.candidatos li {
+	display:inline-block;
+	text-align: center;
+	width:  45%;
+    height: 400px;
+	vertical-align: top;
+	margin:  0 1.5%;
+	padding:  30px 20px;
+	box-sizing: border-box;
+	border:  2px solid #000000;
+	border-radius: 10px;
+}
+
+.candidatos li:hover {
+    border:  4px solid #4682A9;
+    color: #4682A9;
+}
+
+.candidatos li:hover h2{
+	font-size:  34px;
+    color: #4682A9;
+    
+}
+
+.candidatos li:active {
+    font-size:  34px;
+    color: #749BC2;
+    border: 4px solid #749BC2;
+}
+
+.candidatos li:active h2{
+	font-size:  34px;
+    color: #749BC2;    
+}
+
+.nome-candidato{
+    font-size: 28px;
+    font-family: 'Lato';
+    font-weight: bold;
+    text-align: center;
+}
+
+.foto{
+    padding:  10px; 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.candidato-descricao{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-style: italic;
+    text-align: center;
+}
+
+
